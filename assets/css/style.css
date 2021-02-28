@@ -1,0 +1,74 @@
+.header-top{
+    background: #000;
+    padding: 10px 0px;
+}
+.header-top ul {
+    margin-top: 5px;
+}
+.header-top ul li a{
+    color:#658888;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.header-top ul li a:hover{
+    color: #fff;
+}
+.header-top i{
+    color: #6A67CE;
+}
+.navbar{
+    background: #212414;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+.navbar ul{
+    margin-left: 30px;
+}
+.navbar .nav li a{
+    text-transform: uppercase;
+    color:#fff;
+
+}
+.navbar .nav li a:hover{
+    color: #000;
+    background: #658888;
+    transition: 1s;
+    transform: rotate(360deg);
+
+}
+.slider{
+    background-image: url('../images/bg6.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:200px;
+    padding-bottom:200px;
+
+}
+.carousel-inner {
+    background: rgba(0,0,0,.5);
+    width: 70%;
+    margin:auto;
+    height: 250px;
+}
+.carousel-control {
+    width:0px;	
+}
+.slider h3{
+    text-transform: uppercase;
+    color:#fff;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.slider h4{
+    text-transform: uppercase;
+    color:#fff;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+.slider .edu{
+    color:#6A67CE;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Home</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/animate.min.css" rel="stylesheet">
+        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+        <link href="assets/css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header-top">
+            <div class="container">
+                <ul class="list-inline list-unstyled pull-right">
+                    <li><a href="#"><i class="fa fa-envelope"></i> Newsletter</a></li> 
+                    <li><a href="#"><i class="fa fa-sign-in"></i> Login</a></li> 
+                    <li><a href="#"><i class="fa fa-registered"></i> Register</a></li> 
+                </ul>
+            </div>
+        </div>
+
+        <div class="navbar navbar-default" id="navbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target="#collaps-navbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand sr-only">Demo</a>
+                </div>
+                <div class="navbar-collapse collapse" id="collaps-navbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                    <form class="navbar-form navbar-right">
+                        <div class="input-group">
+                            <input type="text" class="form-control" name="search">
+                            <div class="input-group-btn">
+                                <button class="btn btn-primary" type="submit">
+                                    <span class="fa fa-search"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="slider">
+            <div class="container">
+                <div class="carousel slide" id="myCaro">
+                    <ul class="carousel-indicators sr-only">
+                        <li class="active" data-slide-to="0" data-target="#myCaro"></li> 
+                        <li data-slide-to="1" data-target="#myCaro"></li> 
+                        <li data-slide-to="2" data-target="#myCaro"></li> 
+                    </ul>
+                    
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <h3>Education is a Vaccine for Violence</h3>
+                            <h4><span class="edu">Edu</span> Cational</h4>
+                            <div class="box text-center text-uppercase">
+                                <h5 style="color:white !important;">Wisdom Begins with Wonder</h5>
+                            </div>
+                        </div>
+                        <div class="item ">
+                            <h3>Education is a Vaccine for Violence</h3>
+                            <h4><span class="edu">Edu</span> Cational</h4>
+                            <div class="box">
+                                <h5>Wisdom Begins with Wonder</h5>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <h3>Education is a Vaccine for Violence</h3>
+                            <h4><span class="edu">Edu</span> Cational</h4>
+                            <div class="box">
+                                <h5>Wisdom Begins with Wonder</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="left carousel-control" data-slide="prev" href="#myCaro">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" data-slide="next" href="#myCaro">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>
